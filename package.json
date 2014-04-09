@@ -1,0 +1,25 @@
+{
+  "name": "isomorphine",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:slikts/isomorphine.git"
+  },
+  "keywords": [
+    "mongoose",
+    "rest",
+    "isomorphic",
+    "api"
+  ],
+  "author": "slikts <dabas@untu.ms>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slikts/isomorphine/issues"
+  },
+  "homepage": "https://github.com/slikts/isomorphine"
+}
