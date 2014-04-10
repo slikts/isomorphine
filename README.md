@@ -4,7 +4,7 @@ Makes it possible to use the same [mongoose](http://mongoosejs.com/) models both
 The goal is to avoid having to define the data models more than once, or having to use different APIs to work with the database on the client and server side,
 or having to implement an API to work with the database.
 All that has to be provided to the client side are the model names and the REST API address, and the rest happens transparently.
-This is similar to what [Meteor](https://www.meteor.com/) does with mongodb.
+This is similar to what [Meteor](https://www.meteor.com/) does with mongodb, but more basic (no push updates or predictions).
 
 The REST API is implemeneted as an [express 4](http://expressjs.com/) router.
 
