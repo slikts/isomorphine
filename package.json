@@ -25,7 +25,8 @@
   "dependencies": {
     "express": "4.x.x",
     "mongoose": "*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "superagent": "*"
   },
   "devDependencies": {
     "mocha": "*",
