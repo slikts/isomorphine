@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/slikts/isomorphine/issues"
   },
-  "homepage": "https://github.com/slikts/isomorphine"
+  "homepage": "https://github.com/slikts/isomorphine",
+  "dependencies": {
+    "express": "4.x.x",
+    "mongoose": "*",
+    "body-parser": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*",
+    "chai": "*"
+  }
 }
