@@ -11,6 +11,7 @@ The REST API is implemeneted as an [express 4](http://expressjs.com/) router.
 ### Example
 
 Defining the data model the server side:
+
 ```
 var TestModel = mongoose.model('TestModel', new mongoose.Schema({
   foo: Number,
@@ -31,10 +32,10 @@ var Router = require('isomorphine/router');
 express()
   .use(Router())
   .listen();
-  .
 ```
 
 Using the model on the client side:
+
 ```
 // the server should somehow export Object.keys(mongoose.models) to the client
 var models = require('isomorphine/models')(['TestModel'], 'http://localhost:3000/');
