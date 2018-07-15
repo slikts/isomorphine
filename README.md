@@ -1,5 +1,7 @@
 #isomorphine
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/slikts/isomorphine.svg)](https://greenkeeper.io/)
+
 Makes it possible to use the same [mongoose](http://mongoosejs.com/) models both on the client and server side.
 The goal is to avoid having to define the data models more than once, or having to use different APIs to work with the database on the client and server side,
 or having to implement an API to work with the database.
